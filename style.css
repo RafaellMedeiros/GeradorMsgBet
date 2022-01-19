@@ -1,0 +1,31 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+    box-shadow: 0px 6px 8px 3px #b5aeae;
+    margin-bottom: 30px;
+}
+
+.entrada, .resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.submit, .copiar, .limpar {
+    width: 100px;
+    height: 127px;
+}
+
+
+.botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    margin-right: 5px;
+}
